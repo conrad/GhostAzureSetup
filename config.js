@@ -1,7 +1,7 @@
 // # Ghost Configuration
 // Setup your Ghost install for various environments
 // Documentation can be found at http://support.ghost.org/config/
- 
+
 var path = require('path'),
     config;
 
@@ -32,7 +32,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blogs published URL.
-        url: 'http://yourawesomewebsite.azurewebsites.net/',
+        url: 'http://mattconrad.co/',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
