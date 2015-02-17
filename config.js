@@ -11,7 +11,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://mattconrad.co/',
-        mail: {},
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'Gmail',
+                auth: {
+                    user: 'matthew.malloy.conrad@gmail.com',
+                    pass: 'lEdorlE86^^Go'
+                }
+            }
+        },
         database: {
             client: 'sqlite3',
             connection: {
